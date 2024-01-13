@@ -1,0 +1,30 @@
+[
+    {
+        "category": "Category Name 1",
+        "icon": "Category Icon",
+        "links": [
+            {
+                "name": "Page Name",
+                "url": "Page URL",
+                "icon": "Page Icon"
+            }
+        ]
+    },
+    {
+        "__comment__": "This object is a sample, do not copy this property",
+        "category": "Dev",
+        "icon": "mdi mdi-code-array",
+        "links": [
+            {
+                "name": "Github",
+                "url": "https://github.com",
+                "icon": "mdi mdi-github"
+            }
+        ]
+    },
+    {
+        "category": "Category Name 3",
+        "icon": "Category Icon",
+        "links": []
+    }
+]

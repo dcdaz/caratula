@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" style="height:100%;width:100%;max-height:100%;max-width:100%;">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Daniel Cordova (https://github.com/dcdaz)">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie-edge">
+  <title>Homepage</title>
+  <link rel="stylesheet" href="css/bulma.css">
+  <link rel="stylesheet" href="css/materialdesignicons.min.css">
+</head>
+
+<body style="height:100%;width:100%;max-height:100%;max-width:100%;">
+  <div id="app">
+    <App></App>
+  </div>
+  <script src="https://unpkg.com/vue@3.3.2/dist/vue.global.prod.js"></script>
+  <script type="module">
+    const { createApp } = Vue
+    import RootComponent from './components/root.js'
+    createApp(RootComponent).mount('#app')
+  </script>
+</body>
+
+</html>
