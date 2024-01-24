@@ -1,6 +1,6 @@
 [
     {
-        "category": "Category Name 1",
+        "name": "Category Name 1",
         "icon": "Category Icon",
         "links": [
             {
@@ -12,18 +12,18 @@
     },
     {
         "__comment__": "This object is a sample, do not copy this property",
-        "category": "Dev",
-        "icon": "mdi mdi-code-array",
+        "name": "Dev",
+        "icon": "mdiCodeArray",
         "links": [
             {
                 "name": "Github",
                 "url": "https://github.com",
-                "icon": "mdi mdi-github"
+                "icon": "mdiGithub"
             }
         ]
     },
     {
-        "category": "Category Name 3",
+        "name": "Category Name 3",
         "icon": "Category Icon",
         "links": []
     }
